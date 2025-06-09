@@ -1,1 +1,16 @@
-# contact-form
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-7" />
+  <title>Contact Us</title>
+</head>
+<body>
+  <h2>Contact Us</h2>
+  <form id="contactForm" action="https://hooks.zapier.com/hooks/catch/XXXXXX/XXXXXX/" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required /><br/><br/>
+    <input type="tel" name="phone" placeholder="Your Phone Number" required /><br/><br/>
+    <textarea name="message" placeholder="Your Message"></textarea><br/><br/>
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
